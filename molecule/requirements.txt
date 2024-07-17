@@ -5,3 +5,4 @@ molecule>=6,<24.7.0
 netaddr>=1.2.1
 pytest<8           # newer versions require python>=3.8
 pytest-testinfra<9 # newer versions require python>=3.9
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
